@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Saving Calculator</title>
+  <meta name="description" content="Saving Calculator">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="Saving Calculator">
+  <meta property="og:type" content="Saving Calculator">
+  <meta property="og:url" content="https://www.test.com/">
+  <meta property="og:description" content="Saving Calculator">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="dist/img/favicon-16x16.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
+  <link rel="stylesheet" href="dist/css/styles.css?v=3">
+
+</head>
+
+<body>
+  <!--Header-->
+    <header>
+      <div id="headerCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#headerCarousel" data-slide-to="1"></li>
+          <li data-target="#headerCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="d-block w-100" src="dist/img/banner1.jpg" alt="First slide">
+          </div>
+          <div class="item">
+            <img class="d-block w-100" src="dist/img/banner2.jpg" alt="Second slide">
+          </div>
+          <div class="item">
+            <img class="d-block w-100" src="dist/img/banner3.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </header>
+  <!---->
+
+  <!--Content-->
+  <section>
+    <div class="container text-center">
+      <h1>Calculate Your Savings</h1>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+
+      <div class="rangeSelector text-center">
+        <div class="form-group mt-5">
+          <input  id="range1" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="10"/>
+        </div>
+        <div class="form-group mt-5">
+          <input id="range2" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="40"/>
+        </div>
+        <button class="btn btn-success" id="Calculate">Calculate</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="savings">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center">Your Savings</h2>
+            <div class="col-md-6">
+              <img src="dist/img/user.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="col-md-6">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliqui</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+            
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <p>Copyright@Saving Calculator 2021</p> 
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+  
+  <script>
+    // Basic Slider
+    var slider = new Slider("#range1", {
+      tooltip: 'always'
+    });
+
+    var slider = new Slider("#range2", {
+      tooltip: 'always'
+    });
+
+
+  $('#Calculate').click(function() {
+    $('#savings').show("slow");
+    $(window).scrollTop(500);
+  });
+
+    
+  </script>
+</body>
+</html>
