@@ -1,1 +1,1 @@
-# This is an simple markup for a saving_calculator.
+# This is an simple HTML/Css markup for a saving_calculator.
